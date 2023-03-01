@@ -12,9 +12,15 @@
         "name": "Jason Lewis",
         "email": "jason.lewis1991@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:LordXaart/blueprint"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "dingo/blueprint": "^0.4.4",
+        "dingo/blueprint": "dev-master",
         "illuminate/routing": "^9.0|^10.0",
         "illuminate/support": "^9.0|^10.0",
         "league/fractal": "^0.20"
@@ -31,7 +37,7 @@
         "illuminate/pagination": "^9.0|^10.0",
         "laravel/lumen-framework": "^9.0|^10.0",
         "mockery/mockery": "~1.0",
-        "phpunit/phpunit": "^9.0",
+        "phpunit/phpunit": "^9.0|^10.0",
         "squizlabs/php_codesniffer": "~2.0",
         "php-open-source-saver/jwt-auth": "^1.4"
     },
